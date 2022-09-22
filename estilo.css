@@ -4,10 +4,9 @@
 }
 body {
     font-family: Verdana, Tahoma, sans-serif;
-    font-size: 18px;
 }
 header {
-    background-color: #251857;
+    background-color: #1f0e61;
 }
 #topo {
     width: 900px;
@@ -28,7 +27,6 @@ header h1 {
 header p{
     color: #FFF;
     font-size: 20px;
-    font-style: italic;
     width: 600px;
     float: left;
 }
@@ -42,7 +40,7 @@ main h2 {
     letter-spacing: 2px;
     padding: 30px 0 40px;
 }
-#conteudo {
+#conteudo-home {
     width: 1280px;
     height: 280px;
     margin: auto;
@@ -53,28 +51,59 @@ main h2 {
     margin: 7px;
     float: left;
 }
-.regiao img {
+#conteudo-home img {
     border-radius: 15px 15px 0 0 ;
     margin-top: -2px;
     margin-left: -2px;
 }
-.regiao a {
+#conteudo-home a {
     display: block;
     width: 235px;
     height: 160px;
 }
-.regiao p {
+#conteudo-home p {
     text-align: center;
     margin: 15px 0 20px;
     font-weight: bold;
     color: #222522;
 }
 footer {
-    background-color: #251857;
-    color: #FFF;
-    padding: 20px 0 15px;
-}
-footer p {
+    background-color: #1f0e61;
     text-align: center;
     font-style: italic;
+    color: #FFF;
+    padding: 20px 0;
+}
+
+/* Páginas internas */
+#conteudo-interno {
+    width: 1280px;
+    height: 480px;
+    margin: auto;
+}
+#conteudo-interno h2{
+    text-align: left;
+    text-indent: 10px;
+}
+.foto {
+    border: 2px solid #CCC;
+    border-radius: 15px;
+    margin: 10px;
+    float: left;
+}
+.foto img {
+    border-radius: 15px 15px 0 0 ;
+}
+.legenda{
+    text-align: center;
+}
+.capital{
+    font-weight: bold;
+}
+.voltar {
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
 }
